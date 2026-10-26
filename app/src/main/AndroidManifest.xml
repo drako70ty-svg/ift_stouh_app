@@ -1,15 +1,14 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
     <application
-        android:allowBackup="false"
         android:label="معهد الإخوة شتوح"
         android:theme="@android:style/Theme.Material.Light.NoActionBar"
+        android:allowBackup="false"
         android:supportsRtl="true">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.iftstouh.app.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -18,6 +17,5 @@
             </intent-filter>
 
         </activity>
-
     </application>
 </manifest>
